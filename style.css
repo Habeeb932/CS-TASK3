@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.589);
+    color: white;
+    margin-bottom: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
